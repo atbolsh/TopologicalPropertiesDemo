@@ -5,7 +5,7 @@ This code builds on concepts introduced in the paper.
 
 It allows the user to automatically print out all valid grids of arbitrary size (functions `all_validi` and `all_unique`), perform all the permutations described, and freely convert between lists and grids.
 
-Internally, fixed points of classes 1, 2, and 3 from the paper are encoded as -1, -2, and -3, while the quadrants, where they are stored, are encoded as the positive numbers 1 - 4. The grids are stored (and indexed) in such a way, that printing a grid shows you all the information that you need. The function `display` can perform this operation in bulk; for instance, we can reproduce a primitive version of Figure 3 from the paper by calling 
+Internally, fixed points which are *Repellers*, *Attractors,* and *Saddles*, as described in the paper, are encoded as -1, -2, and -3, respectively, while the quadrants are encoded as the positive numbers 1 - 4. The grids are stored (and indexed) in such a way that printing a grid shows you all the information that you need. The function `display` can perform this operation in bulk; for instance, we can reproduce a primitive version of Figure 3 from the paper by calling 
 ```
 >>> display(all_unique(4))
 [[ 4  4  4 -1]
