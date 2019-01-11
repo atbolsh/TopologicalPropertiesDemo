@@ -56,6 +56,6 @@ A more presentation-friendly format is accessible through the functions `g_to_ti
 
 The most important backend function is `is_valid`, which implements all of the restrictions described in Definition 3.7.
 
-It should be noted that this is all for demonstration purposes only; any practical application should be written in a lower-level language, and the algorithms should be more efficient. This is not optimized for long computations; if you have an interest in a computational exploration of strongly monotone vector fields, it is recommended that you contact the corresponding author of this paper at dmitry.rachinsky@utdallas.edu, or the programmer of this script at atb86@cornell.edu.
+It should be noted that this is all for demonstration purposes only; any high-capacity computations will require optimization (and probably, a lower-level language). If you have an interest in a computational exploration of strongly monotone vector fields, it is recommended that you contact the corresponding author of this paper at dmitry.rachinsky@utdallas.edu, or the programmer of this script at atb86@cornell.edu.
 
 
