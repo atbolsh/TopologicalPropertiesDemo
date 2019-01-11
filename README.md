@@ -51,7 +51,6 @@ Which yields
  [ 4  3  3 -3]
  [-2  2  2  2]]
 ++++++++++++++++++++++++++++++++++++++
->>>
 ```
 A more presentation-friendly format is accessible through the functions `g_to_tikz` and `l_to_tikz`, which produce LaTeX code for the pictures you see in the paper (provided you `\usepackage{tikz}`).
 
