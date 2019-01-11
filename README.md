@@ -45,7 +45,7 @@ Internally, fixed points of classes 1, 2, and 3 from the paper are encoded as -1
 ++++++++++++++++++++++++++++++++++++++
 >>>
 ```
-A more presentation-friendly format is accessible through the functions `g_to_tikz` and `l_to_tikz`, which produce latex code for the the sort of picture you see in the paper (provided you include the package tikz).
+A more presentation-friendly format is accessible through the functions `g_to_tikz` and `l_to_tikz`, which produce \latex code for the the sort of picture you see in the paper (provided you `\usepackage{tikz}`).
 
 The most important backend function is `is_valid`, which implements all of the restrictions described in Definition 3.7.
 
