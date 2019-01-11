@@ -46,7 +46,8 @@ Internally, fixed points of classes 1, 2, and 3 from the paper are encoded as -1
 
 A more presentation-friendly format is accessible through the functions *g\_to\_tikz* and *l\_to\_tikz*, which produce latex code for the the sort of picture you see in the paper (provided you include the package tikz).
 
+The most important backend function is *is_valid*, which implements all of the restrictions described in Definition 3.7.
 
-It should be noted that this is all for demonstration purposes only; any practical application should be written in a lower-level language, and the algorithms should be more efficient. This is not optimized for long, complex computations; if you have an interest in that, it is recommended that you contact the authors of this paper.
+It should be noted that this is all for demonstration purposes only; any practical application should be written in a lower-level language, and the algorithms should be more efficient. This is not optimized for long computations; if you have an interest in a computational exploration of strongly monotone vector fields, it is recommended that you contact the authors of this paper.
 
 
